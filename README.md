@@ -4,7 +4,7 @@ A fast, secure, browser-based password generator with no dependencies.
 
 **[Live Demo](https://kausal-dev.github.io/password-generator/)**
 
-![Password Generator Screenshot](screenshot.png)
+![Password Generator Screenshot](demo.png)
 
 ## Features
 
