@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Password Generator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Password Generator</h1>
+    <p class="subtitle">Generate secure, random passwords instantly</p>
+
+    <div class="output-box">
+      <span id="password-display">Click Generate</span>
+      <button id="copy-btn" title="Copy to clipboard">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>
+        </svg>
+      </button>
+    </div>
+
+    <div class="strength-bar">
+      <div id="strength-fill"></div>
+    </div>
+    <p id="strength-label">—</p>
+
+    <div class="controls">
+      <div class="slider-row">
+        <label for="length">Length: <span id="length-display">16</span></label>
+        <input type="range" id="length" min="6" max="64" value="16" />
+      </div>
+
+      <div class="options">
+        <label><input type="checkbox" id="opt-upper" checked /> Uppercase (A–Z)</label>
+        <label><input type="checkbox" id="opt-lower" checked /> Lowercase (a–z)</label>
+        <label><input type="checkbox" id="opt-numbers" checked /> Numbers (0–9)</label>
+        <label><input type="checkbox" id="opt-symbols" /> Symbols (!@#$…)</label>
+      </div>
+    </div>
+
+    <button id="generate-btn">Generate Password</button>
+    <p id="copy-toast">Copied!</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
