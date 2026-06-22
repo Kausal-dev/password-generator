@@ -2,7 +2,7 @@
 
 A fast, secure, browser-based password generator with no dependencies.
 
-**[Live Demo](https://kausalblox.github.io/password-generator/)**
+**[Live Demo](https://kausal-dev.github.io/password-generator/)**
 
 ![Password Generator Screenshot](screenshot.png)
 
@@ -18,7 +18,7 @@ A fast, secure, browser-based password generator with no dependencies.
 ## Getting Started
 
 ```bash
-git clone https://github.com/KausalBlox/password-generator.git
+git clone https://github.com/Kausal-dev/password-generator.git
 cd password-generator
 # Open index.html in your browser — that's it
 ```
